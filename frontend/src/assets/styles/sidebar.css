@@ -1,0 +1,45 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  background: #1e293b;
+  color: white;
+}
+
+/* Heading */
+.logo {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px; /* space above heading */
+  margin-bottom: 20px;
+}
+
+/* Menu list */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Menu items */
+.menu li {
+  margin: 6px 12px;
+}
+
+/* Links */
+.menu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #cbd5f5;
+  border-radius: 5px;
+}
+
+/* Hover */
+.menu li a:hover {
+  background: #334155;
+  color: #ffffff;
+}
