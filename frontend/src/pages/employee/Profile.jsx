@@ -30,17 +30,71 @@ function Profile() {
 
           <tr>
             <td>Name</td>
-            <td>
+            <td>ID</td>
+            <td>Department</td>
+            <td>Email</td>
+            <td>Phone</td>
+            <td>Address</td>
+            {/* <td>
               <input
                 type="text"
                 name="name"
                 value={profile.name}
                 onChange={handleChange}
               />
-            </td>
+            </td> */}
           </tr>
 
           <tr>
+            <td><input
+                type="text"
+                name="name"
+                value={profile.name}
+                onChange={handleChange}
+              /></td>
+              <td>
+              <input
+                type="text"
+                name="id"
+                value={profile.id}
+                onChange={handleChange}
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="department"
+                value={profile.department}
+                onChange={handleChange}
+              />
+            </td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                value={profile.email}
+                onChange={handleChange}
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="phone"
+                value={profile.phone}
+                onChange={handleChange}
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="address"
+                value={profile.address}
+                onChange={handleChange}
+              />
+            </td>
+          </tr>
+
+          {/* <tr>
             <td>ID</td>
             <td>
               <input
@@ -102,7 +156,7 @@ function Profile() {
 
           <tr>
             <td><button className="save-btn">Save Changes</button></td>
-          </tr>
+          </tr> */}
 
         </tbody>
 

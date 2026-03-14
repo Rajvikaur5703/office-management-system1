@@ -3,9 +3,10 @@ import '../../assets/styles/employee/tasks.css';
 function Tasks()
 {
     const stats = [
-    { title: 'Total Tasks', value: '156', icon: 'fa-users', color: '#3b82f6' },
+    { title: 'Total Tasks', value: '250', icon: 'fa-users', color: '#3b82f6' },
     { title: 'Pending', value: '100', icon: 'fa-check-circle', color: '#10b981'},
-    { title: 'Completed', value: '56', icon: 'fa-briefcase', color: '#f59e0b' }
+    { title: 'Completed', value: '100', icon: 'fa-briefcase', color: '#f59e0b' },
+    { title: 'In Progress', value: '50', icon: 'fa-briefcase', color: '#f5ca0b' }
   ];
 
   const tasks = [
@@ -33,7 +34,6 @@ function Tasks()
             </div>
 
             <div className="task-table">
-                <h2>Task List</h2>
 
                 <table>
                     <thead>

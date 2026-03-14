@@ -131,6 +131,9 @@ function AdminEmployee() {
                                 <td>{emp.email}</td>
                                 <td>{emp.department}</td>
                                 <td>
+                                    <button className="edit-button">
+                                        Edit
+                                    </button>
                                     <button 
                                         className="delete-button"
                                         onClick={() => deleteEmployee(emp.id)}

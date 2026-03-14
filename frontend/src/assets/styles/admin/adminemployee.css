@@ -149,6 +149,19 @@
   background:#dc2626;
 }
 
+.edit-button{
+  background:#02b44c;
+  color:white;
+  border:none;
+  padding:6px 12px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.edit-button:hover{
+  background:#02b44c;
+}
+
 /* ================= No Data ================= */
 .no-data{
   margin-top:20px;

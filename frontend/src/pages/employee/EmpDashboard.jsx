@@ -2,11 +2,12 @@ import '../../assets/styles/employee/dashboard.css';
 
 function EmpDashboard()
 {
+    
     const stats = [
     { title: 'Total Tasks', value: '156', icon: 'fa-users', color: '#3b82f6', change: '+12%' },
     { title: 'Total Attendence', value: '234', icon: 'fa-check-circle', color: '#10b981', change: '+23%' },
     { title: 'Active Projects', value: '18', icon: 'fa-briefcase', color: '#f59e0b', change: '+5%' },
-    { title: 'Meeting Hours', value: '127', icon: 'fa-clock', color: '#8b5cf6', change: '+8%' }
+    { title: 'Meetings', value: '127', icon: 'fa-clock', color: '#8b5cf6', change: '+8%' }
   ];
     return(
         <div className='home'>
@@ -15,6 +16,7 @@ function EmpDashboard()
                     <i className="fas fa-search"></i>
                     <input type="text" placeholder="Search employees, tasks, documents..." />
                 </div>
+                
                 <div className='filter'>
                     Last 30 days
                 </div>
@@ -36,24 +38,7 @@ function EmpDashboard()
                 </div>
                 ))}
             </div>
-            {/* <div className='summary-cards'>
-                <div class='card'> 
-                    <h3>Tasks Completed</h3> 
-                    <p>234</p> 
-                </div>
-                <div class='card'> 
-                    <h3>Active Projects</h3> 
-                    <p>18</p> 
-                </div>
-                <div class='card'> 
-                    <h3>Total Attendence</h3> 
-                    <p>34</p> 
-                </div>
-                <div class='card'> 
-                    <h3>Total Meetings</h3> 
-                    <p>2</p> 
-                </div>
-            </div> */}
+            
         </div>
     ); 
 }

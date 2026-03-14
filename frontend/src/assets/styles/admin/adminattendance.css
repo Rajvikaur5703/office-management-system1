@@ -64,12 +64,12 @@
 }
 
 /* ================= Status ================= */
-.present{
+.main-content .present{
   color:#16a34a;
   font-weight:600;
 }
 
-.absent{
+.main-content .absent{
   color:#dc2626;
   font-weight:600;
 }

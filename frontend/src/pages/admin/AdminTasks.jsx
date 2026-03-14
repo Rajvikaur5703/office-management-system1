@@ -72,10 +72,10 @@ function AdminTasks() {
           <thead>
             <tr>
               <th>Title</th>
-              <th>Assigned</th>
+              <th>Assigned To</th>
               <th>Status</th>
               <th>Due Date</th>
-              <th>Delete</th>
+              <th>Action</th>
             </tr>
           </thead>
 
@@ -88,13 +88,21 @@ function AdminTasks() {
                 <td>{task.dueDate}</td>
                 <td>
                   <button
+                    className="edit-btn"
+                    onClick={() => deleteTask(task.id)}
+                  >
+                    Edit
+                  </button>
+
+                  <button
                     className="delete-btn"
                     onClick={() => deleteTask(task.id)}
                   >
                     Delete
                   </button>
+
                 </td>
-              </tr>
+              </tr> 
             ))}
           </tbody>
         </table>
